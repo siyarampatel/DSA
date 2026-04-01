@@ -44,7 +44,7 @@ class array1{
         int n = sc.nextInt();
         int arr[] = new int [n];
         creation(n,arr,sc);
-        // reversal(arr,n);
+        reversal(arr,n);
         rotation(n,arr);
        
     }
