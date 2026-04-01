@@ -10,6 +10,7 @@ class array1{
         for(int i=0; i<n; i++){
         System.out.print(arr[i]+" ");
         }
+        System.out.println();
     }
     public static void reversal(int arr[],int n){
         //reversing 
@@ -24,13 +25,27 @@ class array1{
         System.out.print(arr[i]+" ");
         }
     }
+
+    public static void rotation(int n,int arr[]){
+        int last=arr[n-1];
+        for(int i=n-1; i>0; i--){
+            arr[i]=arr[i-1];
+        }
+        arr[0]=last;
+        System.out.println("Rotated array is -> ");
+        for(int i=0; i<n; i++){
+        System.out.print(arr[i]+" ");
+        }
+
+    }
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array:");
         int n = sc.nextInt();
         int arr[] = new int [n];
         creation(n,arr,sc);
-        reversal(arr,n);
+        // reversal(arr,n);
+        rotation(n,arr);
        
     }
 }
