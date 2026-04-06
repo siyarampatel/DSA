@@ -13,6 +13,11 @@ class str{
         System.out.println(str.toLowerCase());
         System.out.println(str.contains("He"));//checks if char are there or not 
         System.out.println(str.replace('o','p'));
+        str.concat("qwerty");  //string is immutable
+        System.out.println(str);
+        String str3 = str.concat("qwerty");
+        System.out.println(str);
+        System.out.println(str3);
 
     
     }
