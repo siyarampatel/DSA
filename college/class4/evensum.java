@@ -11,7 +11,7 @@ class evensum{
 
     }
     public static void main(String [] args){
-        int x=1234;
+        int x=34613;
         System.out.println(count(x));
     }
 }
