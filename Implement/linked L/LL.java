@@ -99,8 +99,9 @@ public int getSize(){
     return size;
 }
 
-
+}
 //----------------------------------------------------------------------------------------------------------------------------
+    class LL{
     public static void main(String [] args){
         linkedlist1 list = new linkedlist1();
         list.addFirst(1);
