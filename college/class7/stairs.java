@@ -1,19 +1,8 @@
-//===========memoization---------------------
-// for optimizing the reccursion code avoiding repeated recursive calls by storing intermediate results.
-/*fib(6)
- ├── fib(5)
- │    ├── fib(4)
- │    │    ├── fib(3)
- │    │    │    ├── fib(2)
- │    │    │    ├── fib(1)
- │    │    ├── fib(2)   ← repeated
- │    ├── fib(3)       ← repeated
- ├── fib(4)            ← repeated
-*/
+// stairs problem with reccursion and memoization
 import java.util.*;
-class optimize{
+class stairs{
     static int fib(int n,int []dp){
-        if(n<=1){
+        if(n==0 || n==1){
             return n;
         }
         if(dp[n] != -1){ //checks if for an particular value recus.is done
