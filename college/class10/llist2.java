@@ -55,6 +55,26 @@ class llist2{
         secondlast.next=null;
 
     }
+    void delete_start(){
+        if(head==null){
+            return;
+        }
+        head=head.next;
+    }
+
+    void search(int key){
+        Node current = head;
+        while(current!=null){
+            if(current.data == key){
+                System.out.print("Found");
+                return;
+            }
+            current=current.next;
+        }
+        System.out.print("Not found");
+    }
+
+
     public static void main(String [] args){
         llist2 l = new llist2();
         l.insert_last(10);
@@ -66,6 +86,9 @@ class llist2{
         l.print();
         l.delete_last();
         l.print();
+        l.delete_start();
+        l.print();
+        l.search(40);
 
     }
 }
