@@ -10,7 +10,7 @@ class Node {
 
 class linked {
 
-    Node head;
+    Node head; 
 
     void insert_last(int data) {
 
