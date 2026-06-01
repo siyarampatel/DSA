@@ -66,7 +66,7 @@ class segrigate{
         two.next = null;
         return zeroD.next;    
     }
-  
+
     public static void main(String[] args) {
 
         segrigate l = new segrigate();
