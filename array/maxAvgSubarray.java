@@ -12,9 +12,7 @@ class maxAvgSubarray{
 
         currentSum += nums[i] - nums[i-k];
 
-        maxSum = Math.max(maxSum,currentSum);
-
-        
+        maxSum = Math.max(maxSum,currentSum);      
       }
       return (double)maxSum/k;
     }
