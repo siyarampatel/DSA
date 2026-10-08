@@ -17,7 +17,7 @@ class Node{
         size++;
     }
 }
-Node head;//its just an pointing variable not an actual node
+Node head;
 
 
 // _______________________________________________________________________________________________________________

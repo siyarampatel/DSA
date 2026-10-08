@@ -70,9 +70,9 @@ class reversesum{
 
 Node reversesum(Node l1, Node l2)
 
-takes two linked lists and returns a new linked list representing their sum.
+// takes two linked lists and returns a new linked list representing their sum.
 
-The code performs digit-by-digit addition exactly like elementary-school addition.
+// The code performs digit-by-digit addition exactly like elementary-school addition.
     
     Node reversesumcombine(Node l1 , Node l2){
         Node dummy = new Node(0);

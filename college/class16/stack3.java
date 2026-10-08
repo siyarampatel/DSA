@@ -10,6 +10,7 @@ class stack3{
             s.push(ch);
         }
 
+        System.out.println(s);
         String rev = "";
 
         while(!s.isEmpty()){

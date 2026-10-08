@@ -23,6 +23,7 @@ class stack2{
             s.push(x);
             s1.push(x);
         }
+        
         System.out.println("Original Stack->"+s);
         System.out.println("Copied Stack->"+s1);
    
